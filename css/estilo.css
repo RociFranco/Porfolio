@@ -1,0 +1,542 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    height: 50%;
+}
+
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center; 
+    justify-content:space-evenly;  
+
+}
+
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+    padding: 5px 5px; 
+    
+
+}
+
+header a{
+
+    padding: 5px;
+
+}
+#quien-soy .imagen{
+
+    flex: 1;
+}
+
+.imagen{
+
+    margin: 0 auto;
+
+}
+
+.imagen img{
+    
+    border-radius: 50%;
+    padding: 100px 100px;
+    
+    max-width: 60%;
+    
+
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+h1{
+    font-size: 80px;
+
+   
+}
+h5{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+ul{
+    color: black;
+    display: flex;
+    text-transform: none;
+    list-style-type: none;
+
+    
+}
+li{
+   padding: 15px;
+   margin-left: 15px;
+}
+
+main{
+    align-items: center; 
+    justify-content:space-evenly;
+}
+#quien-soy{
+    height: 550px;
+    background-color:#F4DC4C;
+    padding: 50px;
+    display: flex;
+
+}
+
+section{
+    padding: 50px 100px;
+    
+
+}
+
+.titulo{
+    text-transform: uppercase;
+ 
+    text-decoration: none;
+   
+    padding: 80px;
+    
+    
+}
+
+#quien-soy button{
+
+    background-color: rgb(65, 63, 66);
+    border: none;
+    padding: 15px 30px;
+    color: white;
+}
+
+#quien-soy a{
+
+    margin-left: 15px;
+
+}
+
+
+h2{
+    font-size: 50px;
+ }
+
+ #sobre-mi{
+
+    padding: 135px;
+
+ }
+
+ h4{
+   
+    padding: 2px ;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #F4DC4C;
+    margin: 1% auto 1% auto;
+    text-align: center;
+  
+    
+ }
+
+ h2{
+    margin: 1% auto 3% auto;
+    text-align: center;
+    
+ }
+
+#sobre-mi p{
+    
+    width: 95%;
+    font-size: 20px;
+    
+}
+#sobre-mi h3{
+   color:  rgb(65, 63, 66);
+}
+
+#sobre-mi h1{
+
+    color: black;
+    text-align: center;
+    height:75px;
+    width:75px;
+    background-color: #F4DC4C;
+    border-radius: 50%;
+
+}
+
+#sobre-mi table th{
+    color: rgb(60, 64, 72);
+    padding: 5px 55px;
+}
+#sobre-mi td{
+    padding: 5px 55px;
+
+}
+
+ h4{
+    
+    color:#000;
+  background-color: #F4DC4C;
+  margin-inline: 45%;
+
+ 
+}
+
+#sobre-mi h3{
+
+    color: #000;
+    font-size: 25px;
+
+}
+
+
+
+h5{
+  font-size: 20px;  
+}
+
+#Lo-que-hago{
+
+    
+    margin: 1% auto 3% auto;
+    text-align: center;
+}
+
+.imagenes{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+        
+   
+}
+
+.imagenes div i{
+    margin: 12% auto;
+    font-size: 50px;
+    color: #F4DC4C;
+}
+
+.imagenes div{
+
+    flex-direction: row;
+    border-radius: 10px;
+    width: 30%;
+    height: 150px;
+    margin-top:2%;
+}
+#Lo-que-hago h4{
+
+    padding: 5px 10px;
+
+}
+
+#Lo-que-hago h2{
+
+    margin-top:2%;
+    font-size: 35px ;
+}
+
+#Resumen div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+#Resumen  div{
+    width: 50%;
+    text-align: center;
+    
+}
+#Resumen ul{
+    display:list-item;
+    justify-content: center;
+    border-left-color:  #F4DC4C;
+    border-left-style: solid;
+    border-left-width: 2px; 
+    padding-right: 12px;
+    
+     
+}
+#Resumen li{
+   padding: 0px 26px;
+   text-align: left;
+   margin-top: 15px;
+
+}
+
+#Resumen p{
+    text-align: left;
+    color: rgb(88, 88, 88);
+   
+
+}
+#Resumen .skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+#Resumen .skills{
+    width: 50%;
+    text-align: center;
+
+}
+#Resumen h1{
+    font-size: 30px;
+}
+#Resumen hr{
+    background-color: rgb(128, 124, 124);
+}
+
+#Resumen .container{
+
+    width: 100%; 
+    background-color: #ddd;
+    border-radius: 25px;
+
+
+}
+#Resumen .skills {
+    
+    padding-top: 7px; 
+    padding-bottom: 7px; 
+    color: white; 
+    border-radius: 25px;
+
+}
+
+#Resumen .web-desing {
+    width: 60%;
+     background-color: #F4DC4C;
+}
+
+
+#Resumen .html-css {
+    width: 60%;
+    background-color: #F4DC4C;
+
+    
+} 
+#Resumen .javascript {
+    width: 90%;
+     background-color:#F4DC4C;
+} 
+
+#Resumen .css {
+    width: 80%; 
+    background-color:#F4DC4C;
+} 
+#Resumen .angular-js {
+    width: 65%;
+    background-color: #F4DC4C;
+} 
+#Resumen .boostrap {
+    width: 60%;
+    background-color:#F4DC4C;
+} 
+#Resumen .react-js {
+    width: 60%;
+    background-color:#F4DC4C;
+} 
+#Resumen span{
+    
+    color: #000;
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#Resumen table  td{
+   
+    width: 65%;
+    
+
+}
+
+#Resumen table{
+   width: 100%;
+  
+}
+
+#Resumen button{
+    border: 1px solid rgb(7, 7, 7);
+    padding: 20px 30px;
+    color: rgb(10, 10, 10);
+   
+    margin-left: 45%;
+
+}
+
+
+
+#porfolio{
+    padding: 50px 100px;
+
+}
+
+#porfolio  img{
+    padding: 10px;
+    width:300px;
+    height:300px; 
+    background-repeat: no-repeat;
+
+}
+
+#porfolio .centrar{
+    margin: 0 80px;
+	display:block;
+}
+
+#contacto {
+    
+    
+    line-height: 40px;
+    padding: 50px 100px;
+  
+    display: flex;
+    margin: 0 auto;
+
+
+    height: 550px;
+    background-color:#F4DC4C;
+   
+    display: flex;
+}
+.datos table tr{
+
+    padding: 50px;
+    background-color: grey;
+
+}
+
+ #contacto .datos p{
+    width: 80%;
+
+}
+
+
+#contacto .datos{
+
+    width: 60%;
+}
+
+#contacto input{
+    margin: 10px 0;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #F4DC4C;
+  
+    border:0;
+    border-bottom:1px solid rgb(99, 96, 96)
+
+
+}
+
+#contacto textarea{
+    margin: 10px 0;
+    display: block;
+    border: none;
+    height: 100px;
+    background-color: #F4DC4C;
+    border:0;
+    border-bottom:1px solid rgb(99, 96, 96)
+}
+
+#contacto .form button{
+
+    
+     background-color: rgb(65, 63, 66);
+     border: none;
+     padding: 15px 30px;
+     color: aliceblue;
+    
+
+}
+
+#contacto h2 {
+    text-align: left;
+    font-size: 40px;
+    color:  rgb(24, 24, 24);
+
+}
+
+#contacto h4{
+    text-align: left;
+    font-weight: 700px;
+    color:  rgb(24, 24, 24);
+}
+
+#contacto    i{
+
+    padding: 8px;
+    color: grey;
+
+}
+
+footer{
+
+    background: #202020;;
+    height: 50px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* @media (max-width: 1024px){
+
+   
+  
+
+#quien-soy {
+
+    flex-direction: column-reverse;
+    align-items: center;
+   
+    width: 100%;
+    padding-left: 23px;
+   
+
+}
+
+
+
+#quien-soy .imagen{
+   
+    
+    width: 55%;
+    height: 55%;
+
+}
+
+#quien-soy .imagen .titulo{
+    width: 100%;
+}
+
+#contacto{
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+} */
